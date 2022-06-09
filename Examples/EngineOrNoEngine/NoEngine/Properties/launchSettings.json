@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NoEngine": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

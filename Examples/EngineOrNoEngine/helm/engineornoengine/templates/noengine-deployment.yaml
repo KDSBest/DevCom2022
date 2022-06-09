@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: noengine
+  labels:
+    app: noengine
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: noengine
+  template:
+    metadata:
+      labels:
+        app: noengine
+    spec:
+      containers:
+        - name: noengine
+          image: noengine:latest
+          imagePullPolicy: IfNotPresent

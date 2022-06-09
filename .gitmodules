@@ -1,0 +1,3 @@
+[submodule "Examples/2D-MMORPG-Youtube"]
+	path = Examples/2D-MMORPG-Youtube
+	url = https://github.com/KDSBest/2D-MMORPG-Youtube.git
